@@ -22,7 +22,7 @@
   width: 21rem;
   height: 30rem;
   background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-  border-radius: 2rem;
+  border-radius: 20px;
 }
 #nmr76{
   font-weight: bolder;
@@ -112,6 +112,15 @@ font-weight: 700;
   position: relative;
   left: -60px;
   font-weight: bold;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 15px grey;
+  border-radius: 20px;
+  height: 480px;
 }
 
 
